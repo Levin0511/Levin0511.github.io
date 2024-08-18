@@ -1,6 +1,5 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
-/* Ensure universal box-sizing */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -41,11 +40,82 @@ body {
   }
   
 .navbar {
-    padding-top: 0.25rem;  /* Adjust as needed */
-    padding-bottom: 0.25rem; /* Adjust as needed */
-    height: 10%; /* Set a custom height */
+    padding-top: 0.25rem;  
+    padding-bottom: 0.25rem; 
+    height: 10%; 
     background-color: #40514E;
 }
+.header-text {
+    left: 680px;
+    top: 20%;
+    width: auto;
+    height: auto;
+    color: #E4F9F5;
+    text-align: center;
+    line-height: 50px; /* Adjust line height to center text vertically */
+    font-size: 35px;
+    font-family:  Courier, monospace;
+    position: absolute; /* Allows movement */
+  }
+  @media (max-width: 1200px) {
+    .header-text {
+      font-size: 30px;
+      left: 25%;
+      top: 18%;
+    }
+  }
+  @media (max-width: 370px){
+    .header-text {
+      font-size: 30px;
+      left: 150px !important;
+      top: 18%;
+    }
+  }
+  @media (max-width: 376px){
+    .header-text {
+      font-size: 30px;
+      left: 90px !important;
+      top: 18%;
+    }
+  }
+
+  @media (max-width: 320px){
+    .header-text {
+      font-size: 30px;
+      left: 60px !important;
+      top: 18%;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .header-text {
+        font-size: 28px;
+        left: 190px;
+        top: 2%;
+      }
+  }
+  @media (min-width: 577px) and (max-width: 769px){
+    .header-text {
+        font-size: 28px;
+        left: 260px;
+        top: 2%;
+      }
+  }
+  @media (min-width: 769px) and (max-width: 992px){
+    .header-text {
+        font-size: 28px;
+        left: 350px;
+        top: 2%;
+      }
+  }
+  
+  @media (min-width: 993px) and (max-width: 1200px) {
+    .header-text {
+      font-size: 28px;
+      left: 440px;
+      top: 2%;
+    }
+  }
 
 /* Logo styling */
 .logo {
@@ -61,7 +131,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 60px; /* Adjust this value as needed */
+    margin-top: 60px; 
     padding: 10px; 
 }
 
@@ -160,7 +230,7 @@ body {
     margin: 5px auto;
 }
 
-/* State when navbar is opened (START) */
+/* State when navbar is opened */
 .navbar-toggler .top-bar {
     transform: rotate(45deg);
     transform-origin: 10% 10%;
@@ -175,9 +245,8 @@ body {
     transform: rotate(-45deg);
     transform-origin: 10% 90%;
 }
-/* State when navbar is opened (END) */
 
-/* State when navbar is collapsed (START) */
+/* State when navbar is collapsed  */
 .navbar-toggler.collapsed .top-bar {
     transform: rotate(0);
 }
@@ -190,7 +259,7 @@ body {
 .navbar-toggler.collapsed .bottom-bar {
     transform: rotate(0);
 }
-/* State when navbar is collapsed (END) */
+
 
 /* Color of Toggler when collapsed */
 .navbar-toggler.collapsed .toggler-icon {
@@ -569,8 +638,6 @@ body {
     opacity: 1;
 
 }  
-
-
 
 /*footer part*/
 footer {
