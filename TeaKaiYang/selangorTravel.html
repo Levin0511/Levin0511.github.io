@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Travel.css">
+        <meta name="description" content="Malaysia tourism website">
+        <meta name="keywords" content="Malaysia, tourism">
+        <meta name="author" content="UTAR STUDENTS">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="selangorTravel.js" defer></script>
+        <link rel="icon" type="image/x-icon" href="images/favicon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    </head>
+    <body>
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v20.0" nonce="JBUPjOaL"></script><br>
+        <header>
+            <nav class="navbar fixed-top shadow-sm ">
+                <div class="container-fluid">
+                    <div class="navbar-brand">
+                        <div class="logo">
+                            <img src="images/logo.png" alt="Malaysia My Choice" class="d-inline-block align-top logo"> 
+                        </div>
+                        <div class="header-text ms-3">
+                            SELANGOR Travel
+                        </div>
+                        <!-- Burger button remains visible on all screen sizes -->
+                        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="toggler-icon top-bar"></span>
+                            <span class="toggler-icon middle-bar"></span>
+                            <span class="toggler-icon bottom-bar"></span>
+                        </button>
+                        <div class="navigators">
+                            <a class="animated-button" href="selangorFood.html">
+                                <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                                     ></path>
+                                    </svg>
+                                    <span class="text">Food</span>
+                                    <span class="circle"></span>
+                                    <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="navbar-collapse" id="navbarSupportedContent">
+                        <div class="sidebar-logo-container">
+                            <img src="images/logo.png" alt="Malaysia My Choice" class="sidebar-logo">
+                            <p class="logo-text azeret-mono-MenuFont" >Malaysia My Choice</p>
+                        </div>
+                
+                        <ul class="navbar-nav ms-auto flex-column text-end">
+                            <li class="nav-item">
+                                <a class="nav-link azeret-mono-MenuFont" href="https://levin0511.github.io/index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link azeret-mono-MenuFont" href="https://levin0511.github.io/13states.html">13 States</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link azeret-mono-MenuFont" href="https://levin0511.github.io/Aboutus.html">About us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>    
+            </nav>
+        </header>
+        
+        <br><br><br><br><br><br>
+        <button class="btn btn-primary back-to-top" id="backToTopBtn" title="Go to top">
+            <i class="bi bi-arrow-up">^</i> 
+        </button>
+        <section class="location-section">
+            <div class="owl-carousel custom-carousel owl-theme">
+            <div class="item active" style="background-image: url(selangor/Batu\ Caves.jpeg);">
+                <div class="item-desc">
+                    <h3><a href="#Batu Caves" class="image-link">Batu Caves</a></h3>
+                    <p> From its magnificently-built shrines and statues set against a captivating background of limestone hills, Batu Caves is definitely a sight to behold, and a destination not to be missed.</p>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(selangor/sunway\ lagoon.png);">
+                <div class="item-desc">
+                    <h3><a href="#sunway lagoon" class="image-link">Sunway Lagoon</a></h3>
+                    <P>Make your way to Sunway Lagoon and spend your day splashing in the water or on an extreme adventure  </P>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(selangor/Mosque.jpg);">
+                <div class="item-desc">
+                    <h3><a href="#Sultan Salahuddin Abdul Aziz Shah Mosque" class="image-link">Sultan Salahuddin Abdul Aziz Shah Mosque</a></h3>
+                    <p>The Sultan Salahuddin Abdul Aziz Shah Mosque is the largest in Malaysia and second largest in Southeast Asia after Jakarta’s Istiqlal Mosque.</p>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(selangor/Sepang\ International\ Circuit.jpg);">
+                <div class="item-desc">
+                    <h3><a href="#Sepang International Circuit" class="image-link">Sepang International Circuit</a></h3>
+                    <p>Sepang International Circuit (known as Petronas Sepang International Circuit for commercial reasons), is a motorsport race track in Sepang, Selangor, Malaysia. </p>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(selangor/Sky\ Mirror.jpg);">
+                <div class="item-desc">
+                    <h3><a href="#Sky Mirror" class="image-link">Sky Mirror</a></h3>
+                    <p>Sky Mirror is a mystery island that will only emerge for several days every month: During the 1st and 15th of a lunar month, as well as 4 days before or after these dates.  It is also dubbed the Salar de Uyuni of Malaysia, after the similar natural wonder in Bolivia.</p>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(selangor/Sekinchan\ Paddy\ Fields.jpg);">
+                <div class="item-desc">
+                    <h3><a href="#Sekinchan Paddy Fields" class="image-link">Sekinchan Paddy Fields</a></h3>
+                    <p>Sekinchan, which literally means “village suitable for plantation” in Chinese, lives up to its name as the town is the rice bowl of Selangor.  Large plots of land are cultivated to produce the staple rice supply of Malaysians.  This area is well-known for its high yield of rice and mechanised farming methods.</p>
+                </div>
+            </div>
+            <div class="item active" style="background-image: url(selangor/The_Twins_SE_Asia_2019_\(49171985716\)_\(cropped\)_2.jpg);">
+                <div class="item-desc">
+                    <h3><a href="#Petronas Twin Towers" class="image-link">Petronas Twin Towers</a></h3>
+                    <p>In the bustling heart of Kuala Lumpur, expect to be spoiled by an array of amazing places to explore, a main highlight being one of the city's top attractions – the Petronas Twin Towers.</p>
+                </div>
+            </div>  
+        </section>
+
+        <div class="container-a">
+            <div class="container-fluid">
+                <div class="row" id="Batu Caves">
+                    <div class="col-xl-6 col-sm-12 grid-item">
+                        <img src="selangor/Batu Caves2.jpg" alt="Batu Caves" class="image-item">
+                    </div>
+                    <div class="col-xl-6 col-sm-12 grid-item">
+                        <div class="grid-text">
+                            <h1 >Batu Caves</h1><br>
+                            <p>Famously known for its colourful stairs with 272 steps to be exact, and a beautiful Hindu temple, Batu Caves is a must-visit anytime you find yourself in the area. Located in Gombak, Selangor, Batu Caves is easily accessible via public transportation. Basking in the beauty of the cave, you will get to enjoy everything from the authentic beauty of its surrounding limestones to the impressive architecture of the temple and its statues.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="sunway lagoon">
+                    <div class="col-xl-6 col-sm-12 grid-item">
+                        <div class="grid-text">
+                            <h1 >Sunway Lagoon</h1><br>
+                            <p>Enjoy up to 90 rides and attractions, including the popular Vuvuzela, Monsoon 360, Jungle Fury, Pirates Revenge, and more! Explore all 6 themed zones: Amusement Park, Scream Park, Water Park, Sunway Lost Lagoon, Wildlife Park, and X Park Meet over 150 animal species and explore their different habitats at the Wildlife Park</p>
+                            <a href="https://sunwaylagoon.com/" target="_blank">Visit Sunway Lagoon Website</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-sm-12 grid-item"> 
+                        <img src="selangor/sunway lagoon2.jpg" alt="sunway lagoon" class="image-item">
+                    </div>
+                </div>
+                <div class="row" id="Sultan Salahuddin Abdul Aziz Shah Mosque">
+                    <div class="col-xl-6 col-sm-12 grid-item">
+                        <img src="selangor/Mosque2.jpg" alt="Sultan Salahuddin Abdul Aziz Shah Mosque" class="image-item">
+                    </div>
+                    <div class="col-xl-6 col-sm-12 grid-item">
+                        <div class="grid-text">
+                            <h1 >Sultan Salahuddin Abdul Aziz Shah Mosque</h1><br>
+                            <p>As a well-known landmark, the gleaming dome of Masjid Sultan Salahuddin Abdul Aziz Shah, also known as Shah Alam’s Blue Mosque (Masjid Biru Shah Alam), is often the first thing visitors entering the city notice.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="Sepang International Circuit">
+                    <div class="col-xl-6 col-sm-12 grid-item">
+                        <div class="grid-text">
+                            <h1 >Sepang International Circuit</h1><br>
+                            <p>It hosted the Formula One Malaysian Grand Prix between 1999 and 2017, and is also the venue for the Malaysian Motorcycle Grand Prix, the Malaysia Merdeka Endurance Race and other major motorsport events. Previously known as the Sepang F1 Circuit, it was renamed to the Sepang International Circuit. On 31 October 2023, it was announced that Petronas has acquired the naming rights to the circuit for three years in an undisclosed fee.</p>
+                            <a href="https://www.sepangcircuit.com/home" target="_blank">Visit Sepang International Circuit Website</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-sm-12 grid-item"> 
+                        <img src="selangor/Sepang International Circuit2.jpg" alt="Sepang International Circuit" class="image-item">
+                    </div>
+                </div>
+                <div class="row" id="Sky Mirror">
+                   <div class="col-xl-6 col-sm-12 grid-item"> 
+                        <img src="selangor/Sky Mirror2.jpg" alt="Sky Mirror" class="image-item">
+                    </div>
+                    <div class="col-xl-6 col-sm-12 grid-item">
+                        <div class="grid-text">
+                            <h1 >Sky Mirror</h1><br>
+                            <p>Named after its mirror-like reflection of the sky. Before Sky Mirror was unearthed by a group of travel enthusiasts earlier in 2016, it is almost the best kept secret within the town, only known to the locals. Having got to know about the “mystery island” from the fisherman, they decided to explore and what they discovered was a piece of stunning land that flawlessly reflected the sky. These are the pioneers of the island’s discovery, who also named the place Sky Mirror. After a few returns for observations, they stimulated the idea of uplifting the town’s image by promoting the newfound gem as a must-visit tourism spot.</p>
+                            <a href="https://skymirrortour.com/" target="_blank">Visit Sky Mirror Website</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="Sekinchan Paddy Fields">
+                    <div class="col-xl-6 col-sm-12 grid-item">
+                        <div class="grid-text">
+                            <h1 >Sekinchan Paddy Fields</h1><br>
+                            <p>Sekinchan Paddy Field located about 90km from Shah Alam has vast, well-irrigated and organized paddy fields around Sekinchan produce one of the highest yields of rice in the country.  Sekinchan in Chinese means the ‘village suitable for plantation’ is well known as one of the major rice supplier in Malaysia.  Sekinchan is actually a fishing village.  But it is more widely recognized as a famous paddy field instead of a fishing village.  Here, you can drive right beside the paddy fields.  There are roads connecting the town with the small village located in the center of the paddy fields.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-sm-12 grid-item"> 
+                        <img src="selangor/Sekinchan Paddy Fields2.jpg" alt="Sekinchan Paddy Fields" class="image-item">
+                    </div>
+                </div>
+                <div class="row" id="Petronas Twin Towers">
+                    <div class="col-xl-6 col-sm-12 grid-item">
+                        <img src="selangor/Petronas-Twin-Towers-in-Kuala-Lumpur.jpg" alt="Petronas Twin Towers" class="image-item">
+                    </div>
+                    <div class="col-xl-6 col-sm-12 grid-item">
+                        <div class="grid-text">
+                            <h1 >Petronas Twin Towers</h1><br>
+                            <p>The Petronas Twin Towers are an iconic symbol of Kuala Lumpur, soaring 452 meters into the sky.  These impressive skyscrapers are connected by a Skybridge, providing breathtaking views of the cityscape.  Visitors can access the observation deck on the 86th floor for panoramic vistas, offering an unparalleled perspective of Kuala Lumpur’s urban landscape.  The towers also house a shopping mall and numerous dining options, making it a central hub for both sightseeing and entertainment.</p>
+                            <a href="https://www.petronastwintowers.com.my/" target="_blank">Visit Petronas Twin Towers Website</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fb-comments" data-href="https://levin0511.github.io/ " data-width="100%" data-numposts="3"></div>
+        <footer class="bg-dark text-white py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 p-3 mb-3">
+                        <div class="footer-logo-container">
+                            <img src="images/logo.png" alt="Malaysia My Choice" class="img-fluid mb-3">
+                            <p>Still waiting what?? Let's start the journey!</p>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-3 p-3 mb-3">
+    
+                        <div id="footer-explore">
+                            <h5>Explore</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="https://levin0511.github.io/index.html" class="text-white">Home</a></li>
+                                <li><a href="https://levin0511.github.io/13states.html" class="text-white">13 states</a></li>
+                                <li><a href="https://levin0511.github.io/Aboutus.html" class="text-white">About Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4 p-3 mb-3">
+                        <div id="footer-contact">
+                            <h5>Contact Us</h5>
+                            <p><a href="mailto:"> Email: info@malaysiamychoice.my</a></p> 
+                            <p><a href="tel"> Tel: +60 123-456-789</a></p>
+                        </div>
+    
+                        <h5>Follow Us</h5>
+                        <div class="social-container">
+                            <ul class="social-icons">
+                                <li><a href="https://www.instagram.com/malaysia_my_choice?igsh=MXBjbW01eGR2cGg2YQ=="><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://x.com/MyChoiceweb?s=09"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.facebook.com/profile.php?id=61564522110251&mibextid=ZbWKwL"><i class="fa fa-facebook"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="p-3 mt-3 text-center">
+                    <div class="copyright">
+                        <p>Copyright © 2024 UTAR</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script>
+            // Get the button
+            var backToTopBtn = document.getElementById("backToTopBtn");
+        
+            // Show the button when the user scrolls down 100px from the top
+            window.onscroll = function() {
+                if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                    backToTopBtn.style.display = "block";
+                } else {
+                    backToTopBtn.style.display = "none";
+                }
+            };
+        
+            // Scroll to the top of the document when the button is clicked
+            backToTopBtn.onclick = function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            };
+        </script>
+    </body>
+  </html>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Travel.css">
+        <meta name="description" content="Malaysia tourism website">
+        <meta name="keywords" content="Malaysia, tourism">
+        <meta name="author" content="UTAR STUDENTS">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="johorTravel.js" defer></script>
+        <link rel="icon" type="image/x-icon" href="images/favicon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    </head>
+    <body>
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v20.0" nonce="JBUPjOaL"></script><br>
+        <header>
+            <nav class="navbar fixed-top shadow-sm ">
+                <div class="container-fluid">
+                    <div class="navbar-brand">
+                        <div class="logo">
+                            <img src="images/logo.png" alt="Malaysia My Choice" class="d-inline-block align-top logo"> 
+                        </div>
+                        <div class="header-text ms-3">
+                            JOHOR Travel
+                        </div>
+                        <!-- Burger button remains visible on all screen sizes -->
+                        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="toggler-icon top-bar"></span>
+                            <span class="toggler-icon middle-bar"></span>
+                            <span class="toggler-icon bottom-bar"></span>
+                        </button>
+                        <div class="navigators">
+                            <a class="animated-button" href="johorFood.html">
+                                <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                                     ></path>
+                                    </svg>
+                                    <span class="text">Food</span>
+                                    <span class="circle"></span>
+                                    <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="navbar-collapse" id="navbarSupportedContent">
+                        <div class="sidebar-logo-container">
+                            <img src="images/logo.png" alt="Malaysia My Choice" class="sidebar-logo">
+                            <p class="logo-text azeret-mono-MenuFont" >Malaysia My Choice</p>
+                        </div>
+                
+                        <ul class="navbar-nav ms-auto flex-column text-end">
+                            <li class="nav-item">
+                                <a class="nav-link azeret-mono-MenuFont" href="https://levin0511.github.io/index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link azeret-mono-MenuFont" href="https://levin0511.github.io/13states.html">13 States</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link azeret-mono-MenuFont" href="https://levin0511.github.io/Aboutus.html">About us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>    
+            </nav>
+        </header>
+        <button class="btn btn-primary back-to-top" id="backToTopBtn" title="Go to top">
+            <i class="bi bi-arrow-up">^</i> 
+        </button>
+        <section class="location-section">
+            <div class="owl-carousel custom-carousel owl-theme">
+            <div class="item active" style="background-image: url(images/legoland.jpg);">
+                <div class="item-desc">
+                    <h3><a href="#legoland" class="image-link">Legoland</a></h3>
+                    <p>With over 40 rides and attractions, there's something for the whole family at LEGOLAND Malaysia’s Theme Park!</p>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(images/glass-bridge.png);">
+                <div class="item-desc">
+                    <h3><a href="#Skyscape" class="image-link">Skyscape Johor Bahru</a></h3>
+                    <p>Located on top of KOMTAR JBCC, SKYSCAPE @ MENARA JLAND is the 1st Johor's Aerial Entertainment Space! </p>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(images/Tan\ Hiok\ Nee\ Heritage\ Street2.jpg);">
+                <div class="item-desc">
+                    <h3 ><a href="#Tan Hiok Nee Heritage Street" class="image-link">Tan Hiok Nee Heritage Street</a></h3>
+                    <p>Located just an 8-minute drive from Johor Bahru Checkpoint, the streets are known for their cafe scene and of course, the queue-worthy Hiap Joo Banana Cake.</p>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(images/Meldrum\ Walk\ Street2.jpg);">
+                <div class="item-desc">
+                    <h3><a href="#Meldrum Walk Street" class="image-link">Meldrum Walk Street</a></h3>
+                    <p>A trip to Johor is not complete without a stroll along Meldrum Walk, a hawker food trail stretching roughly 300m, just a few minutes’ drive from the causeway and about 25 minutes away from Legoland. </p>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(images/Johor\ Premium\ Outlets.png);">
+                <div class="item-desc">
+                    <h3><a href="#Johor Premium Outlets" class="image-link">Johor Premium Outlets</a></h3>
+                    <p>Johor Premium Outlets is home to 150 finest collection designer and name brand outlet stores featuring savings up to 65% off every day.</p>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(images/Istana\ Bukit\ Serene.jpeg);">
+                <div class="item-desc">
+                    <h3><a href="#Istana Bukit Serene" class="image-link">Istana Bukit Serene</a></h3>
+                <p>The Istana Bukit Serene, as seen from one of the courtyards. Seen on the right, above the trees is the Royal Standard, indicating His Majesty The Sultan of Johor is in residence. </p>
+                </div>
+            </div>
+            <div class="item active" style="background-image: url(images/M2escape-Mount-Austin.jpg);">
+                <div class="item-desc">
+                    <h3><a href="#M2escape " class="image-link">M2escape </a></h3>
+                    <p>M2escape Cafe is a first Mickey Mouse themed cafe established in Mount Austin, Johor Bahru where tonnes of Mickey Mouse items and decorations can be seen around the cafe.</p>
+                </div>
+            </div>  
+        </section>
+
+        <div class="container-a">
+            <div class="container-fluid">
+                <div class="row" id="legoland">
+                    <div class="col-xl-6 col-sm-12 grid-item">
+                        <img src="images/legoland.jpg" alt="legoland" class="image-item">
+                    </div>
+                    <div class="col-xl-6 col-sm-12 grid-item">
+                        <div class="grid-text">
+                            <h1 >Legoland</h1><br>
+                            <p>Legoland Malaysia Resort is a theme park in Iskandar Puteri, Johor, Malaysia. It opened on 15 September 2012 with over 40 interactive rides, shows and attractions. It is the first Legoland theme park in Asia and sixth in the world upon its establishment. Legoland Malaysia was officially opened by Ibrahim Ismail, Sultan of Johor on 22 September. </p><br>
+                            <a href="https://www.legoland.com.my/" target="_blank">Visit Legoland Website</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="Skyscape">
+                    <div class="col-xl-6 col-sm-12 grid-item">
+                        <div class="grid-text">
+                            <h1 >Skyscape Johor Bahru</h1><br>
+                            <p>Go on a thrilling adventure in Malaysia and conquer Johor Bahru’s first aerial entertainment space that is Skyscape! Walkthrough Skycape’s glass-floored Sky Bridge situated 149m above groundTry a variety of activities during your visit including VR experiences, walking through a LED tunnel, and more!</p><br>
+                            <a href="https://www.menarajland.com.my/skyscape-2/" target="_blank">Visit Skyscape Johor Bahru Website</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-sm-12 grid-item"> 
+                        <img src="images/Skyscape.jpg" alt="Skyscape" class="image-item">
+                    </div>
+                </div>
+                <div class="row" id="Tan Hiok Nee Heritage Street">
+                    <div class="col-xl-6 col-sm-12 grid-item">
+                        <img src="images/Tan Hiok Nee Heritage Street.png" alt="Tan Hiok Nee Heritage Street" class="image-item">
+                    </div>
+                    <div class="col-xl-6 col-sm-12 grid-item">
+                        <div class="grid-text">
+                            <h1 >Tan Hiok Nee Heritage Street</h1><br>
+                            <p>Known as Johor Bahru’s Heritage Food Trail - This street is refurbished to commemorate the heritage of the Straits Chinese and Malays. Some of the buildings and shophouses are kept in their original state. There are some old famous food shops and newly opened hipster cafes around here.</p><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="Meldrum Walk Street">
+                    <div class="col-xl-6 col-sm-12 grid-item">
+                        <div class="grid-text">
+                            <h1 >Meldrum Walk Street</h1><br>
+                            <p>Life between buildings of Johor Bahru City Centre. A decade before Malaysia Independence Day, the first food court market in JB was set up at Jalan Ungku Puan, on a small plot of land adjacent to Segget River. It was once regarded as Johor Bahru street food heaven by the locals.</p><br>  
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-sm-12 grid-item"> 
+                        <img src="images/Meldrum Walk Street.jpg" alt="Meldrum Walk Street" class="image-item">
+                    </div>
+                </div>
+                <div class="row" id="Johor Premium Outlets">
+                   <div class="col-xl-6 col-sm-12 grid-item"> 
+                        <img src="images/Johor Premium Outlets.jpg" alt="Johor Premium Outlets" class="image-item">
+                    </div>
+                    <div class="col-xl-6 col-sm-12 grid-item">
+                        <div class="grid-text">
+                            <h1 >Johor Premium Outlets</h1><br>
+                            <p>Johor Premium Outlets is an elite and luxurious mall in the heart of Johor Bahru. With an assembly of various luxury brands and fine dining space, Johor Premium outlets are South East Asia’s first luxury premium outlet. It is an intricately designed arena spread over two floors with beautiful architecture.</p><br>
+                            <a href="https://www.premiumoutlets.com.my/johor-premium-outlets/stores" target="_blank">Visit Johor Premium Outlets Website</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="Istana Bukit Serene">
+                    <div class="col-xl-6 col-sm-12 grid-item">
+                        <div class="grid-text">
+                            <h1 >Istana Bukit Serene</h1><br>
+                            <p>Istana Bukit Serene (Serene Hill Palace) has a sprawling garden which is a common site for many royal gathering      s and celebrations.  The palace is well guarded by the Royal Johor Military Force (JMF), the Sultan's own private army. Istana Bukit Serene has a tower measuring 35m in height and is among the famous tourist attractions in Johor Bahru. This historical building features unique carvings and is influenced by the Art Deco aesthetic.</p><br>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-sm-12 grid-item"> 
+                        <img src="images/Istana Bukit Serene.jpg" alt="Istana Bukit Serene" class="image-item">
+                    </div>
+                </div>
+                <div class="row" id="M2escape">
+                    <div class="col-xl-6 col-sm-12 grid-item">
+                        <img src="images/Mickey-Mouse-Cafe-Mount-Austin.jpg" alt="M2escape " class="image-item">
+                    </div>
+                    <div class="col-xl-6 col-sm-12 grid-item">
+                        <div class="grid-text">
+                            <h1 >M2escape </h1><br>
+                            <p>Mickey Mouse draw arts can be seen all over the cafe and Mickey Mouse lovers would definitely fall in love with this place. Due to the Mickey Mouse decorations, all the Mickey Mouse lovers would chill and gather around the cafe and play board games themselves. Public can also participate in their escape room game, which brings more challenge to them</p><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fb-comments" data-href="https://levin0511.github.io/ " data-width="100%" data-numposts="3"></div>
+        <footer class="bg-dark text-white py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 p-3 mb-3">
+                        <div class="footer-logo-container">
+                            <img src="images/logo.png" alt="Malaysia My Choice" class="img-fluid mb-3">
+                            <p>Still waiting what?? Let's start the journey!</p>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-3 p-3 mb-3">
+    
+                        <div id="footer-explore">
+                            <h5>Explore</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="https://levin0511.github.io/index.html" class="text-white">Home</a></li>
+                                <li><a href="https://levin0511.github.io/13states.html" class="text-white">13 states</a></li>
+                                <li><a href="https://levin0511.github.io/Aboutus.html" class="text-white">About Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4 p-3 mb-3">
+                        <div id="footer-contact">
+                            <h5>Contact Us</h5>
+                            <p><a href="mailto:"> Email: info@malaysiamychoice.my</a></p> 
+                            <p><a href="tel"> Tel: +60 123-456-789</a></p>
+                        </div>
+    
+                        <h5>Follow Us</h5>
+                        <div class="social-container">
+                            <ul class="social-icons">
+                                <li><a href="https://www.instagram.com/malaysia_my_choice?igsh=MXBjbW01eGR2cGg2YQ=="><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://x.com/MyChoiceweb?s=09"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.facebook.com/profile.php?id=61564522110251&mibextid=ZbWKwL"><i class="fa fa-facebook"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-3 mt-3 text-center">
+                    <div class="copyright">
+                        <p>Copyright © 2024 UTAR</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script>
+            // Get the button
+            var backToTopBtn = document.getElementById("backToTopBtn");
+        
+            // Show the button when the user scrolls down 100px from the top
+            window.onscroll = function() {
+                if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                    backToTopBtn.style.display = "block";
+                } else {
+                    backToTopBtn.style.display = "none";
+                }
+            };
+        
+            // Scroll to the top of the document when the button is clicked
+            backToTopBtn.onclick = function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            };
+        </script>
+    </body>
+  </html>
